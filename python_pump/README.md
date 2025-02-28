@@ -105,4 +105,4 @@ By leveraging Flask for web functionality, NumPy for accurate progress modeling,
 
 **Disclaimer**  
 
-This document was refined with the assistance of AI, specifically ChatGPT, to enhance readability, grammar, and overall presentation. While AI was used to polish the content, the original version can be found in "bullets.txt".
+This document and the code itself was refined with the assistance of AI, specifically ChatGPT, to enhance readability, grammar, and overall presentation. In some cases ChatGpt, helped me to fixed the errors in the code. While AI was used to polish the content, the idea was 100% from our tem. Moreover, the original version of the written document can be found in "bullets.txt". 
