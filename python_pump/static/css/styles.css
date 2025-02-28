@@ -1,0 +1,170 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.container {
+    width: 90%;
+    max-width: 550px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Labels */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input Fields & Select Boxes */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Placeholder Text */
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button Styling */
+.btn, button {
+    width: 90%;
+    padding: 12px;
+    background: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn:hover, button:hover {
+    background: #ff6f00;
+    transform: scale(1.05);
+}
+
+/* Secondary Buttons */
+.btn-secondary {
+    width: 90%;
+    padding: 10px;
+    background: #555;
+    color: white !important;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background: #777;
+    transform: scale(1.05);
+}
+
+/* Workout List - Styling for the 3 different workouts */
+.workout-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.workout-box {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.workout-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.workout-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.workout-list li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Progress Chart Styling */
+.progress-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.progress-chart {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation for chart */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    input, select, button, .btn, .btn-secondary {
+        width: 100%;
+    }
+
+    .progress-chart {
+        max-width: 100%;
+    }
+}
