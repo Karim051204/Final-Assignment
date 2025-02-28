@@ -1,5 +1,5 @@
 # Python Pump - AI-Powered Workout Generator
-#### Video Demo:  https://youtu.be/Dl8FxormcqE
+#### Video Demo:  [https://youtu.be/Dl8FxormcqE](https://youtu.be/BvXBOT2t9W4)
 
 ## Introduction
 
