@@ -1,5 +1,7 @@
 # Python Pump - AI-Powered Workout Generator
 
+[Video Demo:](https://youtu.be/BvXBOT2t9W4)
+
 ## Introduction
 
 Python Pump is an AI-powered workout generator designed to help users create personalized workout routines based on their fitness goals. The application is built using Python and Flask, utilizing Matplotlib and NumPy to generate customized progress predictions. Whether a user wants to lose weight, build muscle, or improve endurance, Python Pump dynamically adapts workout recommendations and visualizes future fitness progress.
